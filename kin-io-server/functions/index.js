@@ -5,7 +5,7 @@ const app = require("express")();
 const FBAuth = require("./util/fbAuth");
 
 const { getAllPosts, postOnePost } = require("./handlers/posts");
-const { signUp, logIn } = require("./handlers/users");
+const { signUp, logIn, uploadImage } = require("./handlers/users");
 
 //  API Routes
 // --------------------------------------------------------------------------------------------
@@ -17,5 +17,6 @@ app.post("/post", FBAuth, postOnePost);
 // User routes
 app.post("/signup", signUp);
 app.post("/login", logIn);
+app.post("/user/image", FBAuth, uploadImage);
 
 exports.api = functions.region("europe-west1").https.onRequest(app);
