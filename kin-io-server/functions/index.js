@@ -6,7 +6,7 @@ admin.initializeApp();
 const express = require("express");
 const app = express();
 
-app.get("/screams", (request, response) => {
+app.get("/posts", (request, response) => {
   admin
     .firestore()
     .collection("posts")
@@ -29,7 +29,7 @@ app.get("/screams", (request, response) => {
     });
 });
 
-app.post("/scream", (request, response) => {
+app.post("/post", (request, response) => {
   const newPost = {
     body: request.body.body,
     userHandle: request.body.userHandle,
