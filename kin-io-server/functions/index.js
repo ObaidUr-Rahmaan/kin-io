@@ -9,6 +9,8 @@ const {
   postOnePost,
   getPost,
   commentOnPost,
+  likePost,
+  unlikePost,
 } = require("./handlers/posts");
 const {
   signUp,

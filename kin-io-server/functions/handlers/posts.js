@@ -23,16 +23,25 @@ exports.getAllPosts = (request, response) => {
 };
 
 exports.postOnePost = (request, response) => {
+  if (request.body.body.trim() === "") {
+    return response.status(400).json({ body: "Body must not be empty" });
+  }
+
   const newPost = {
     body: request.body.body,
     userHandle: request.user.handle,
+    userImage: request.user.imageUrl,
     createdAt: new Date().toISOString(),
+    likeCount: 0,
+    commentCount: 0,
   };
 
   db.collection("posts")
     .add(newPost)
     .then((doc) => {
-      response.json({ message: `document ${doc.id} created successfully` });
+      const responsePost = newPost;
+      responsePost.postId = doc.id;
+      response.json(responsePost);
     })
     .catch((err) => {
       response.status(500).json({ error: "something went wrong" });
