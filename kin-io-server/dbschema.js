@@ -29,9 +29,19 @@ let db = {
       createdAt: "2020-07-02T14:23:12.049Z",
     },
   ],
+  notifications = [
+    {
+      recipient: "user",
+      sender: "Obaid",
+      read: "true | false",
+      postId: "hh705oWfWucVzGbHH2pa",
+      type: "like | comment",
+      createdAt: "2020-07-02T15:54:12.049Z"
+    }
+  ]
 };
 
-const userDetails = {
+let userDetails = {
   // Redux data
   credentials: {
     userId: "N43KJ5H43KJHREW4Y8D9ENVW23E",
