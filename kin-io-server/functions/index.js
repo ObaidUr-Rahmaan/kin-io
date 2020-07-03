@@ -19,6 +19,8 @@ const {
   uploadImage,
   addUserDetails,
   getAuthenticatedUser,
+  getUserDetails,
+  markNotificationsRead,
 } = require("./handlers/users");
 
 //  API Routes
@@ -39,6 +41,8 @@ app.post("/login", logIn);
 app.post("/user/image", FBAuth, uploadImage);
 app.post("/user", FBAuth, addUserDetails);
 app.get("/user", FBAuth, getAuthenticatedUser);
+app.get("/user/:handle", getUserDetails);
+app.post("/notifications", FBAuth, markNotificationsRead);
 
 exports.api = functions.region("europe-west1").https.onRequest(app);
 
