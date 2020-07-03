@@ -40,6 +40,7 @@ exports.postOnePost = (request, response) => {
     });
 };
 
+// Fetch 1 Post
 exports.getPost = (request, response) => {
   let postData = {};
   db.doc(`/posts/${request.params.postId}`)
@@ -62,6 +63,37 @@ exports.getPost = (request, response) => {
         postData.comments.push(doc.data());
       });
       return response.json(postData);
+    })
+    .catch((err) => {
+      response.status(500).json({ error: "something went wrong" });
+      console.error(err);
+    });
+};
+
+// Comment on post
+exports.commentOnPost = (request, response) => {
+  if (request.body.body.trim() === "")
+    return response.status(400).json({ error: "Must not be empty" });
+
+  const newComment = {
+    body: request.body.body,
+    createdAt: new Date().toISOString(),
+    postId: request.params.postId,
+    userHandle: request.user.handle,
+    userImage: request.user.imageUrl,
+  };
+
+  // Confirm post exists
+  db.doc(`/posts/${request.params.postId}`)
+    .get()
+    .then((doc) => {
+      if (!doc.exists) {
+        return response.status(404).json({ error: "Scream not found" });
+      }
+      return db.collection("comments").add(newComment);
+    })
+    .then(() => {
+      response.json(newComment);
     })
     .catch((err) => {
       response.status(500).json({ error: "something went wrong" });
