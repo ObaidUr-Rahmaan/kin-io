@@ -4,7 +4,7 @@ const app = require("express")();
 
 const FBAuth = require("./util/fbAuth");
 
-const { getAllPosts, postOnePost } = require("./handlers/posts");
+const { getAllPosts, postOnePost, getPost } = require("./handlers/posts");
 const {
   signUp,
   logIn,
@@ -19,6 +19,11 @@ const {
 // Post routes
 app.get("/posts", getAllPosts);
 app.post("/post", FBAuth, postOnePost);
+app.get("/post/:postId", getPost);
+// TODO: delete a post
+// TODO: like a post
+// TODO: unlike a post
+// TODO: comment on a post
 
 // User routes
 app.post("/signup", signUp);
