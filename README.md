@@ -1,24 +1,30 @@
-# kin-io - Cherish memories with your kin
+# kin-io | Cherish memories with your kin
 
 Full stack social media application using React, Firebase, Redux, Express, and Material-UI.  
 
-Implemented backend REST API server with Node.js and Express and cloud functions on Firebase
+Implemented backend REST API server with Node.js and Express, deploying cloud functions on Google Firebase.
 
-To log in: make any email you want and password longer than 4 characters
+# Deployment
+Deployed url coming soon...
 
-Features:
+# Features:
 - user login, sign up, and authentication
 - Customize your user profile
 - Image uploads
 
 # Running locally:
 
-# 1: Install packages
+## Requirements
+
+- [Node](https://nodejs.org/en/) version 12.8.12 or higher 
+
+
+## 1: Install packages
 ```bat
 cd kin-io-client && npm install
 ```
 
-# 2: Run project
+## 2: Run project
 ```bat
 npm start
 ```
