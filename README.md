@@ -1,6 +1,6 @@
-# kin-io
+# kin-io - Cherish memories with your kin
 
-Full stack, social media application using React, Firebase, Redux, Express, and Material-UI.  
+Full stack social media application using React, Firebase, Redux, Express, and Material-UI.  
 
 Implemented backend REST API server with Node.js and Express and cloud functions on Firebase
 
