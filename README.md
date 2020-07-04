@@ -1,4 +1,4 @@
-# kin-io - Cherish memories with your kin
+# kin-io | Cherish memories with your kin
 
 Full stack social media application using React, Firebase, Redux, Express, and Material-UI.  
 
