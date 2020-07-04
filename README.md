@@ -11,12 +11,12 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 
 # Running locally:
 
-# 1: Install packages
+## 1: Install packages
 ```bat
 cd kin-io-client && npm install
 ```
 
-# 2: Run project
+## 2: Run project
 ```bat
 npm start
 ```
