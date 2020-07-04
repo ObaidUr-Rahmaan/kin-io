@@ -1,1 +1,1 @@
-Backend: Used NodeJS, Express, Axios, Busboy, Cors, Firebase
+Back-end: Used NodeJS, Express, Axios, Busboy, Cors, Firebase
