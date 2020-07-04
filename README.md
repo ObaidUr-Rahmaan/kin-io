@@ -11,9 +11,7 @@ Features:
 - Customize your user profile
 - Image uploads
 
-# Running Frontend side locally:
-
-To run this app:
+# Running locally:
 
 # 1: Install packages
 ```bat
