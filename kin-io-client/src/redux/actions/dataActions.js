@@ -4,6 +4,10 @@ import {
   LIKE_POST,
   UNLIKE_POST,
   DELETE_POST,
+  LOADING_UI,
+  POST_POST,
+  SET_ERRORS,
+  CLEAR_ERRORS,
 } from "../types";
 import axios from "axios";
 
@@ -26,6 +30,26 @@ export const getPosts = () => (dispatch) => {
     });
 };
 
+// Post a post
+export const postPost = (newPost) => (dispatch) => {
+  dispatch({ type: LOADING_UI });
+  axios
+    .post("/post", newPost)
+    .then((result) => {
+      dispatch({
+        type: POST_POST,
+        payload: result.data,
+      });
+      dispatch({ type: CLEAR_ERRORS });
+    })
+    .catch((err) => {
+      dispatch({
+        type: SET_ERRORS,
+        payload: err.response.data,
+      });
+    });
+};
+
 // Like a post
 export const likePost = (postId) => (dispatch) => {
   axios
@@ -38,7 +62,7 @@ export const likePost = (postId) => (dispatch) => {
     })
     .catch((err) => console.log(err));
 };
-// Unlike a scream
+// Unlike a post
 export const unlikePost = (postId) => (dispatch) => {
   axios
     .get(`/post/${postId}/unlike`)
@@ -51,6 +75,7 @@ export const unlikePost = (postId) => (dispatch) => {
     .catch((err) => console.log(err));
 };
 
+// Delete a post
 export const deletePost = (postId) => (dispatch) => {
   axios
     .delete(`/post/${postId}`)
