@@ -15,7 +15,7 @@ import CloseIcon from "@material-ui/icons/Close";
 
 // Redux stuff
 import { connect } from "react-redux";
-import { postPost } from "../redux/actions/dataActions";
+import { postPost, clearErrors } from "../redux/actions/dataActions";
 
 const styles = (theme) => ({
   ...theme.styles,
@@ -59,6 +59,7 @@ class PostPost extends Component {
     this.setState({ open: true });
   };
   handleClose = () => {
+    this.props.clearErrors();
     this.setState({ open: false, errors: {} });
   };
   handleChange = (event) => {
@@ -133,6 +134,7 @@ class PostPost extends Component {
 
 PostPost.propTypes = {
   postPost: PropTypes.func.isRequired,
+  clearErrors: PropTypes.func.isRequired,
   UI: PropTypes.object.isRequired,
 };
 
@@ -140,6 +142,6 @@ const mapStateToProps = (state) => ({
   UI: state.UI,
 });
 
-export default connect(mapStateToProps, { postPost })(
+export default connect(mapStateToProps, { postPost, clearErrors })(
   withStyles(styles)(PostPost)
 );
