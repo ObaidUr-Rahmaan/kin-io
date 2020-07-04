@@ -11,6 +11,11 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 
 # Running locally:
 
+## Requirements
+
+- [Node](https://nodejs.org/en/) version 12.8.12 or higher 
+
+
 ## 1: Install packages
 ```bat
 cd kin-io-client && npm install
