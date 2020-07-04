@@ -2,9 +2,7 @@
 
 Full stack social media application using React, Firebase, Redux, Express, and Material-UI.  
 
-Implemented backend REST API server with Node.js and Express and cloud functions on Firebase
-
-To log in: make any email you want and password longer than 4 characters
+Implemented backend REST API server with Node.js and Express, deploying cloud functions on Google Firebase.
 
 Features:
 - user login, sign up, and authentication
