@@ -1,5 +1,16 @@
 # kin-io
 
+Full stack, social media application using React, Firebase, Redux, Express, and Material-UI.  
+
+Implemented backend REST API server with Node.js and Express and cloud functions on Firebase
+
+To log in: make any email you want and password longer than 4 characters
+
+Features:
+- user login, sign up, and authentication
+- Customize your user profile
+- Image uploads
+
 # Running Frontend side locally:
 
 To run this app:
