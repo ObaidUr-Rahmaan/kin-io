@@ -4,6 +4,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import MyButton from "../util/MyButton";
 import dayjs from "dayjs";
 import { Link } from "react-router-dom";
+import LikeButton from "./LikeButton";
 
 // MUI Stuff
 import Dialog from "@material-ui/core/Dialog";
@@ -123,11 +124,12 @@ class PostDialog extends Component {
           </Typography>
           <hr className={classes.invisibleSeparator} />
           <Typography variant="body1">{body}</Typography>
-          <span>{likeCount} Likes</span>
-          <MyButton tip="Comments">
+          <LikeButton postId={postId} />
+          <span>{likeCount} likes</span>
+          <MyButton tip="comment">
             <ChatIcon color="primary" />
           </MyButton>
-          <span>{commentCount} Comments</span>
+          <span>{commentCount} comments</span>
         </Grid>
         <hr className={classes.visibleSeparator} />
       </Grid>
