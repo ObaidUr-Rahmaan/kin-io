@@ -8,9 +8,11 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 Deployed url coming soon...
 
 # Features:
+- Make posts, like them and add comments
 - user login, sign up, and authentication
 - Customize your user profile
 - Image uploads
+- Notifications
 
 # Running locally:
 
