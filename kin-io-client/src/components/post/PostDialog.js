@@ -5,6 +5,7 @@ import MyButton from "../../util/MyButton";
 import dayjs from "dayjs";
 import { Link } from "react-router-dom";
 import LikeButton from "./LikeButton";
+import Comments from "./Comments";
 
 // MUI Stuff
 import Dialog from "@material-ui/core/Dialog";
@@ -96,6 +97,7 @@ class PostDialog extends Component {
         commentCount,
         userImage,
         userHandle,
+        comments,
       },
       UI: { loading },
     } = this.props;
@@ -131,6 +133,7 @@ class PostDialog extends Component {
           </MyButton>
           <span>{commentCount} comments</span>
         </Grid>
+        <Comments comments={comments} />
         <hr className={classes.visibleSeparator} />
       </Grid>
     );
