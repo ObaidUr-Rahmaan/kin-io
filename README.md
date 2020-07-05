@@ -6,7 +6,7 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 
 # Deployment
 ## Netlify
-- https://5f01c90a018aa3861fe21dcc--kin-io.netlify.app/
+- https://kin-io.netlify.app/
 
 ## Firebase
 - Coming soon...
