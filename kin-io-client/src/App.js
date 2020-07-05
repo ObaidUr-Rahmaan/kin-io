@@ -25,6 +25,8 @@ import user from "./pages/user";
 
 const theme = createMuiTheme(themeFile);
 
+axios.defaults.baseURL = "https://europe-west1-kin-io.cloudfunctions.net/api";
+
 const token = localStorage.FBIdToken;
 
 if (token) {
