@@ -20,7 +20,7 @@ class user extends Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount(nextProps) {
     const handle = this.props.match.params.handle;
     const postId = this.props.match.params.postId;
 
@@ -38,13 +38,20 @@ class user extends Component {
   }
   render() {
     const { posts, loading } = this.props.data;
+    const { postIdParam } = this.state;
 
     const postsMarkup = loading ? (
       <p>Loading data...</p>
     ) : posts === null ? (
       <p>No posts from this user</p>
-    ) : (
+    ) : !postIdParam ? (
       posts.map((post) => <Post key={post.postId} post={post} />)
+    ) : (
+      posts.map((post) => {
+        if (post.postId !== postIdParam)
+          return <Post key={post.postId} post={post} />;
+        else return <Post key={post.postId} post={post} openDialog />;
+      })
     );
 
     return (
