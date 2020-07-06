@@ -16,6 +16,8 @@ Working Sample Account:
 
 # Features:
 - Make posts, like them and add comments
+![](/assets/create-post.JPG)
+
 - user login, sign up, and authentication
 - Customize your user profile
 - Image uploads
