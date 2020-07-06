@@ -62,7 +62,7 @@ Built-in webpack should automatically spin up a local development server and fir
   <img width="270" height="300" src="/assets/user-profile.JPG">
 </p>
 <p align="center">
-  <img width="48" height="300" src="/assets/edit-details.JPG">
+  <img width="485" height="300" src="/assets/edit-details.JPG">
 </p>
 
 ## Image uploads
@@ -75,6 +75,6 @@ Built-in webpack should automatically spin up a local development server and fir
   <img width="300" height="100" src="/assets/notifications-1.JPG">
 </p>
 <p align="center">
-  <img width="700" height="375" src="/assets/notifications-2.JPG">
+  <img width="750" height="375" src="/assets/notifications-2.JPG">
 </p>
 
