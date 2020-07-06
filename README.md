@@ -1,4 +1,4 @@
-# kin-io | Cherish memories with your kin
+# kin-io | :family:
 
 Full stack, fully-featured social media application using React, Firebase, Redux, Express, and Material-UI.  
 
@@ -7,6 +7,9 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 # Deployment
 ## Netlify
 - https://kin-io.netlify.app/
+
+Working Sample Account: 
+ - Email - userx@email.com Password - 123456
 
 ## Firebase
 - Coming soon...
