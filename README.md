@@ -75,6 +75,6 @@ Built-in webpack should automatically spin up a local development server and fir
   <img width="300" height="100" src="/assets/notifications-1.JPG">
 </p>
 <p align="center">
-  <img width="500" height="375" src="/assets/notifications-2.JPG">
+  <img width="700" height="375" src="/assets/notifications-2.JPG">
 </p>
 
