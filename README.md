@@ -11,6 +11,9 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 ## Firebase
 - Coming soon...
 
+Working Sample Account: 
+ - Email - userx@email.com Password - 123456
+
 # Features:
 - Make posts, like them and add comments
 - user login, sign up, and authentication
