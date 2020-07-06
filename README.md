@@ -14,16 +14,6 @@ Working Sample Account:
 ## Firebase
 - Coming soon...
 
-# Features:
-- Display all user posts on home page
-<img src="/assets/home-page.JPG" width="40%">
-- Make posts, like them and add comments
-<img src="/assets/create-post.JPG" width="40%">
-- user login, sign up, and authentication
-- Customize your user profile
-- Image uploads
-- Notifications
-
 # Running locally:
 
 ## Requirements
@@ -42,3 +32,21 @@ npm start
 ```
 
 Built-in webpack should automatically spin up a local development server and fire up your browser at: http://localhost:3000
+
+# Features:
+- Display all user posts on home page
+![](/assets/home-page.JPG)
+- Make posts, like them and add comments
+![](/assets/create-post.JPG)
+![](/assets/like-comment-expand.JPG)
+- user login, sign up, and authentication
+![](/assets/log-in.JPG)
+![](/assets/sign-up.JPG)
+- Customize your user profile
+![](/assets/user-profile.JPG)
+![](/assets/edit-details.JPG)
+- Image uploads
+![](/assets/update-profile-pic.JPG)
+- Notifications
+![](/assets/notifications-1.JPG)
+![](/assets/notifications-2.JPG)
