@@ -8,11 +8,11 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 ## Netlify
 - https://kin-io.netlify.app/
 
-## Firebase
-- Coming soon...
-
 Working Sample Account: 
  - Email - userx@email.com Password - 123456
+
+## Firebase
+- Coming soon...
 
 # Features:
 - Make posts, like them and add comments
