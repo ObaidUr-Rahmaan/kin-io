@@ -51,10 +51,10 @@ Built-in webpack should automatically spin up a local development server and fir
 
 ## User login, sign up, and authentication
 <p align="center">
-  <img width="460" height="300" src="/assets/log-in.JPG">
+  <img width="410" height="300" src="/assets/log-in.JPG">
 </p>
 <p align="center">
-  <img width="460" height="300" src="/assets/sign-up.JPG">
+  <img width="320" height="300" src="/assets/sign-up.JPG">
 </p>
 
 ## Customize your user profile
