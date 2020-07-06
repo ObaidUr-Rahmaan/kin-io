@@ -15,7 +15,10 @@ Working Sample Account:
 - Coming soon...
 
 # Features:
+- Display all user posts on home page
+<img src="/assets/home-page.JPG" width="40%">
 - Make posts, like them and add comments
+<img src="/assets/create-post.JPG" width="40%">
 - user login, sign up, and authentication
 - Customize your user profile
 - Image uploads
