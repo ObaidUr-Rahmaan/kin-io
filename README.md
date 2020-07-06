@@ -46,20 +46,20 @@ Built-in webpack should automatically spin up a local development server and fir
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="/assets/like-comment-expand.JPG">
+  <img width="350" height="100" src="/assets/like-comment-expand.JPG">
 </p>
 
 ## User login, sign up, and authentication
 <p align="center">
-  <img width="410" height="300" src="/assets/log-in.JPG">
+  <img width="400" height="300" src="/assets/log-in.JPG">
 </p>
 <p align="center">
-  <img width="320" height="300" src="/assets/sign-up.JPG">
+  <img width="340" height="300" src="/assets/sign-up.JPG">
 </p>
 
 ## Customize your user profile
 <p align="center">
-  <img width="460" height="300" src="/assets/user-profile.JPG">
+  <img width="300" height="300" src="/assets/user-profile.JPG">
 </p>
 <p align="center">
   <img width="460" height="300" src="/assets/edit-details.JPG">
@@ -67,7 +67,7 @@ Built-in webpack should automatically spin up a local development server and fir
 
 ## Image uploads
 <p align="center">
-  <img width="460" height="300" src="/assets/update-profile.JPG">
+  <img width="460" height="300" src="/assets/update-profile-pic.JPG">
 </p>
 
 ## Notifications
