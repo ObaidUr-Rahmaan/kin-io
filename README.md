@@ -36,7 +36,7 @@ Built-in webpack should automatically spin up a local development server and fir
 # Features:
 - Display all user posts on home page
 <p align="center">
-  <img width="460" height="300" src="/assets/home-page.JPG">
+  <img width="500" height="300" src="/assets/home-page.JPG">
 </p>
 
 - Make posts, like them and add comments
