@@ -16,10 +16,9 @@ Working Sample Account:
 
 # Features:
 - Display all user posts on home page
-![test](/assets/home-page.JPG){:height="50%" width="50%"}
+<img src="/assets/home-page.JPG" width="40%">
 - Make posts, like them and add comments
-![](/assets/create-post.JPG){:height="50%" width="50%"}
-
+<img src="/assets/create-post.JPG" width="40%">
 - user login, sign up, and authentication
 - Customize your user profile
 - Image uploads
