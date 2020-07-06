@@ -1,4 +1,4 @@
-# kin-io | Cherish memories with your kin :family:
+# kin-io | :family:
 
 Full stack, fully-featured social media application using React, Firebase, Redux, Express, and Material-UI.  
 
