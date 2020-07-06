@@ -58,7 +58,7 @@ Built-in webpack should automatically spin up a local development server and fir
 </p>
 
 - Customize your user profile
-<p align="right">
+<p align="left">
   <img width="460" height="300" src="/assets/user-profile.JPG">
 </p>
 <p align="right">
@@ -66,12 +66,12 @@ Built-in webpack should automatically spin up a local development server and fir
 </p>
 
 - Image uploads
-<p align="right">
+<p align="center">
   <img width="460" height="300" src="/assets/update-profile.JPG">
 </p>
 
 - Notifications
-<p align="right">
+<p align="left">
   <img width="460" height="300" src="/assets/notifications-1.JPG">
 </p>
 <p align="right">
