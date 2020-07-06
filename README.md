@@ -35,18 +35,46 @@ Built-in webpack should automatically spin up a local development server and fir
 
 # Features:
 - Display all user posts on home page
-![](/assets/home-page.JPG)
+<p align="center">
+  <img width="460" height="300" src="/assets/home-page.JPG">
+</p>
+
 - Make posts, like them and add comments
-![](/assets/create-post.JPG)
-![](/assets/like-comment-expand.JPG)
+
+<p align="left">
+  <img width="460" height="300" src="/assets/create-post.JPG">
+</p>
+
+<p align="right">
+  <img width="460" height="300" src="/assets/like-comment-expand.JPG">
+</p>
+
 - user login, sign up, and authentication
-![](/assets/log-in.JPG)
-![](/assets/sign-up.JPG)
+<p align="left">
+  <img width="460" height="300" src="/assets/log-in.JPG">
+</p>
+<p align="right">
+  <img width="460" height="300" src="/assets/sign-up.JPG">
+</p>
+
 - Customize your user profile
-![](/assets/user-profile.JPG)
-![](/assets/edit-details.JPG)
+<p align="right">
+  <img width="460" height="300" src="/assets/user-profile.JPG">
+</p>
+<p align="right">
+  <img width="460" height="300" src="/assets/edit-details.JPG">
+</p>
+
 - Image uploads
-![](/assets/update-profile-pic.JPG)
+<p align="right">
+  <img width="460" height="300" src="/assets/update-profile.JPG">
+</p>
+
 - Notifications
-![](/assets/notifications-1.JPG)
-![](/assets/notifications-2.JPG)
+<p align="right">
+  <img width="460" height="300" src="/assets/notifications-1.JPG">
+</p>
+<p align="right">
+  <img width="460" height="300" src="/assets/notifications-2.JPG">
+</p>
+
