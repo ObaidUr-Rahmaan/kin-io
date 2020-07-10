@@ -6,7 +6,7 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 
 # Features:
 - Display all user posts on home page
-- Make posts, like them and add comments
+- Make posts, delete posts, like posts and add comments to posts
 - User login, sign up, and authentication
 - Customize your user profile
 - Image uploads
