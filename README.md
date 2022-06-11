@@ -20,9 +20,6 @@ Implemented backend REST API server with Node.js and Express, deploying cloud fu
 Working Sample Account: 
  - Email - userx@email.com Password - 123456
 
-## Firebase
-- Coming soon...
-
 # Running locally:
 
 ## Requirements
